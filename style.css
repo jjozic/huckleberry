@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+}
+
+html {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 60px;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  max-width: 350px;
+  padding-bottom: 2rem;
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+strong {
+  font-weight: 900;
+  color: rgb(59, 168, 113);
+}
+
+main {
+  background-color: darkgrey;
+  border-top: 10px solid grey;
+  padding: 4rem 0;
+}
+
+.card {
+  background-color: #fff;
+  border-bottom: 10px solid grey;
+  padding: 1rem;
+}
+
+h2 {
+  display: inline-block;
+  font-weight: 900;
+  background-color: gold;
+  padding: 1rem 2rem;
+  border-bottom: 10px solid goldenrod;
+  margin: 0;
+  margin-left: -2rem;
+}
